@@ -29,7 +29,7 @@ Developed by **Flora Gashi** and **Sevan Sherbetjian** as part of the Data Visua
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)[DEIN-GITHUB-USERNAME]/swiss-referendum-visualization.git
+   git clone [https://github.com/](https://github.com/)[FloraGashi]/swiss-referendum-visualization.git
    cd swiss-referendum-visualization
 
 2. **Install required dependencies:**
