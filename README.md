@@ -1,27 +1,41 @@
-# Data Visualization Module
-Flora Gashi, Sevan Sherbetjian
+# swiss-referendum-visualization
+Exploratory Data Analysis and Visualization of Swiss Referendums (1880–2023)
+# Swiss Referendums: Interactive Data Visualization & Topic Analysis (1880–2023)
 
-# Installations
-- **Python3 und pip**: 
+An interactive Streamlit web application exploring historical voting patterns, voter turnout, and geographic trends in Swiss popular initiatives and referendums.
 
-```bash
-pip install streamlit 
-pip install geopandas
+Developed by **Flora Gashi** and **Sevan Sherbetjian** as part of the Data Visualization module (B.Sc. Artificial Intelligence & Machine Learning) at Lucerne University of Applied Sciences and Arts (HSLU).
 
-# or for pip3:
+---
 
-pip3 install streamlit 
-pip3 install geopandas
-```
+## Key Features & Insights
 
-## To Change
+* **Interactive Streamlit Dashboard:** Allows users to filter historical voting data by key topics and timeframes.
+* **Topic Identification via NLP:** Applied frequency analysis on referendum text descriptions to extract recurring key topics: **Foreigners**, **Military**, **Atom/Nuclear**, and **Covid**.
+* **Spatial & Turnout Analysis:** Integrated geospatial visualization using **GeoPandas** alongside **Plotly** to highlight correlations between specific political topics and voter participation rates across cantons.
+* **Data Cleansing & Transformation:** Processed multi-year historical datasets, handled missing values, and parsed Swiss federal statistics via `pyaxis`.
 
-In the file `data_visualization.py` on **Line 12** you need to change the path for the needed files.
+---
 
-# Additional Information
-The 'extras' folder contains additional files and images required for our project but should not be considered for grading purposes.
+## Tech Stack & Libraries
 
-# Start the application
-To start the application execute this code in the terminal:
-```bash
-streamlit run .\data_visualization.py
+* **Web Framework:** Streamlit
+* **Geospatial & Data Processing:** GeoPandas, Pandas, PyAxis
+* **Data Visualization:** Plotly, Seaborn, Matplotlib
+
+---
+
+## How to Run the Application Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/](https://github.com/)[DEIN-GITHUB-USERNAME]/swiss-referendum-visualization.git
+   cd swiss-referendum-visualization
+
+2. **Install required dependencies:**
+   ```bash
+   pip install streamlit geopandas pandas matplotlib seaborn plotly pyaxis
+
+3. **Launch the Streamlit app:**
+   ```bash
+   streamlit run data_visualization.py
